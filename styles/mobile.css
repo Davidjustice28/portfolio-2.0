@@ -1,0 +1,162 @@
+@media  (min-width:200px) and (max-width:825px){
+    #hero_left {
+        width: 100%;
+        
+    }
+
+    #hero-text {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hero_right {
+        display: none;
+    }
+
+    nav ul {
+        width: 100%;
+    }
+
+    #center-button {
+        width: 20%;
+        position: absolute;
+        top: 75%;
+        left: 40%;
+
+    }
+
+    #center-button {
+        font-size: 10px;
+    }
+    #name {
+        display:none;
+    }
+    #hero_left h1 {
+        font-size:30px ;
+        justify-content: cente;
+    }
+
+    #social_div {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #about_section {
+        flex-direction: column;
+    }
+
+    #about_section img {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    #about-text {
+        height: 30%;
+        width: 80%;
+        overflow: scroll;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        
+    }
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    #about-text::-webkit-scrollbar {
+        display: none;
+    }
+
+    #project_section {
+        height: 200vh;
+        justify-content: f
+    }
+    #projects {
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 20px;
+        height: 90%;
+    }
+
+    .project{
+        border: 3px solid black;
+        border-radius: 10px;
+        width: 70%;
+        height: 20%;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+    
+    .project img{
+       display: none;
+    }
+    
+    .project p {
+        font-size: smaller;
+    }
+    
+    .project button {
+        background-color: #18191A;
+        border: 1px solid #18191A;
+        color: white;
+        border-radius:5px ;
+        position: relative;
+        bottom: 10px;
+    }
+
+    #animate-text {
+        height: 90%;
+        color:#fff;
+        overflow: hidden;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+    }
+    
+    .text {
+        font-size: 30px;
+        line-height: 60px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .text:first-child {
+        animation-name: slide;
+        animation-iteration-count: infinite;
+        animation-direction:alternate;
+        animation-duration: 10s;
+        animation-delay: 1s;
+    }
+    
+    @keyframes slide {
+        0%{
+        }
+        12.5% {
+            margin-top: -25vw;
+        }
+        25% {
+            margin-top: -50vw;
+        }
+        37.5% {
+            margin-top: -75vw;
+        }
+        50%{
+            margin-top: -100vw;
+        }
+        62.5% {
+            margin-top: -75vw ;
+        }
+        75% {
+            margin-top: -50vw;
+        }
+        87.5% {
+            margin-top: -25vw;
+        }
+        100%{
+            margin-top: 0%;
+        }
+    }
+}

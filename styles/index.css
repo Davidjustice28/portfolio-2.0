@@ -42,7 +42,6 @@ nav ul li:nth-child(1) {
 
 
 #social_div img {
-    height: 20%;
     height: 30px;
 }
 
@@ -322,8 +321,33 @@ footer {
     }
 }
 
-@media (min-width:500px) and (max-width:1024px) {
+@media (min-width:825px) and (max-width:1200px) {
     #hero_left h1 {
-        font-size: 40px;
+        font-size: 50px;
+    }
+
+    #about-text  {
+        color: red;
+        font-size: small;
+        width: 400px;
+        height: 25vw;
+
+    }
+    #about_section img {
+        width: 25vw;
+        height: 25vw;
+        border: 3px solid black;
+        border-radius: 12.5vw;
+        object-fit: contain;
+        object-position: bottom;
+        background-color: #f99965;
+    }
+    
+}
+
+@media  (min-width:1200px) and (max-width:1400px){
+    #hero_left h1 {
+        font-size:70px ;
     }
 }
+
